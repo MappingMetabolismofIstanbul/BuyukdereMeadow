@@ -19,7 +19,7 @@ var config = {
     title: 'Büyükdere Çayırı /Büyükdere Meadow',
     subtitle: '',
     byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    footer:  'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
     chapters: [
         {
             id: '0',
@@ -144,13 +144,13 @@ var config = {
              image: 'https://i.ibb.co/6cgqHcG8/14.png',
             description: '',
             location: {
-                 center: [29.035021075569365,41.15493563639177],
-                zoom: 17,
-                pitch: 40,
+                 center: [29.027328866040893,41.15686965990156],
+                zoom: 15,
+                pitch: 0,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 // {
@@ -174,9 +174,9 @@ var config = {
             image: 'https://i.ibb.co/rK2C65vk/15.png',
             description: '',
             location: {
-                 center: [29.03106337251475,41.153899283541335],
+                 center: [29.027328866040893,41.15686965990156],
                 zoom: 17,
-                pitch: 40,
+                pitch: 0,
                 bearing: 0,
         
                 // flyTo additional controls-
@@ -187,7 +187,7 @@ var config = {
                 //curve: 0, // change the speed at which it zooms out
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
